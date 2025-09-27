@@ -7,7 +7,7 @@ import Doto from "../components/Do-to";
 
 export default function Landing() {
   const route = useRoute();
-  const data = route.params; // data.uname contains the username
+  const data = route.params;
   console.log(data);
 
   return (
